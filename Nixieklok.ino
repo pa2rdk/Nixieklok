@@ -1,3 +1,4 @@
+//By R.J. de Kok - (c) 2018
 #include "Arduino.h"
 #include <Arduino.h>
 #include <Wire.h>
