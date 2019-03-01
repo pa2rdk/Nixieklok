@@ -163,10 +163,10 @@ environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.DTS
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.DTS/value=0
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.LOCAL/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.LOCAL/operation=replace
-environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.LOCAL/value=1545259705
+environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.LOCAL/value=1549112213
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.UTC/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.UTC/operation=replace
-environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.UTC/value=1545256105
+environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.UTC/value=1549108613
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.ZONE/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.ZONE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.944471536/A.EXTRA.TIME.ZONE/value=3600
@@ -457,7 +457,7 @@ environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.COM_PORT/
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.COM_PORT/value=/dev/cu.wchusbserial144140
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.ECLIPSE_LOCATION/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.ECLIPSE_LOCATION/operation=replace
-environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}///////////////
+environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}/////////////////////////
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.EXTRA.ALL/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.EXTRA.ALL/operation=replace
 environment/project/io.sloeber.core.toolChain.release.944471536/JANTJE.EXTRA.ALL/value=
