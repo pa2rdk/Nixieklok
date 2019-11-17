@@ -20,8 +20,6 @@ char receivedString[8];
 char chkGS[3] = "GS";
 byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
 
-
-
 void turnOnNixie(byte whichNixie, byte figure) {
   digitalWrite(A0, ((figure & 2) == 2));
   digitalWrite(A1, ((figure & 4) == 4));
