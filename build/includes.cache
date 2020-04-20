@@ -2,35 +2,35 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "/home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino"
+    "Includepath": "/Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "/home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/variants/eightanaloginputs"
+    "Includepath": "/Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/variants/eightanaloginputs"
   },
   {
-    "Sourcefile": "/home/robert/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp",
+    "Sourcefile": "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp",
     "Include": "Wire.h",
-    "Includepath": "/home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/libraries/Wire/src"
+    "Includepath": "/Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/libraries/Wire/src"
   },
   {
-    "Sourcefile": "/home/robert/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp",
+    "Sourcefile": "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/robert/Dropbox/Arduino-workspace/Nixieklok/build/sketch/sloeber.ino.cpp",
+    "Sourcefile": "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/build/sketch/sloeber.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/libraries/Wire/src/Wire.cpp",
+    "Sourcefile": "/Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/libraries/Wire/src/Wire.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/libraries/Wire/src/utility/twi.c",
+    "Sourcefile": "/Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/libraries/Wire/src/utility/twi.c",
     "Include": "",
     "Includepath": null
   }

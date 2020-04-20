@@ -1,16 +1,16 @@
-/home/robert/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp.o: \
- /home/robert/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Arduino.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/binary.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/WCharacter.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/WString.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/HardwareSerial.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Stream.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Print.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Printable.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/USBAPI.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Arduino.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/variants/eightanaloginputs/pins_arduino.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/variants/eightanaloginputs/../standard/pins_arduino.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/libraries/Wire/src/Wire.h \
- /home/robert/arduino-1.8.10/arduino-1.8.10/hardware/arduino/avr/cores/arduino/Stream.h
+/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp.o: \
+ /Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/build/sketch/Nixieklok.ino.cpp \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Arduino.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/binary.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/WCharacter.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/WString.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/HardwareSerial.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Stream.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Print.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Printable.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/USBAPI.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Arduino.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/variants/eightanaloginputs/pins_arduino.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/variants/eightanaloginputs/../standard/pins_arduino.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/libraries/Wire/src/Wire.h \
+ /Users/robertdekok/Library/Arduino15/packages/arduino/hardware/avr/1.8.1/cores/arduino/Stream.h

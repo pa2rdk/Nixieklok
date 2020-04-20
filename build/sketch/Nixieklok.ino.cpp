@@ -1,4 +1,4 @@
-#line 1 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+#line 1 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 //By R.J. de Kok - (c) 2018
 #include "Arduino.h"
 #include <Arduino.h>
@@ -21,31 +21,31 @@ char receivedString[8];
 char chkGS[3] = "GS";
 byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
 
-#line 23 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+#line 23 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 void turnOnNixie(byte whichNixie, byte figure);
-#line 70 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+#line 70 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 void setup();
-#line 126 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+#line 126 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 void loop();
-#line 1 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 1 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void turnAllOff();
-#line 12 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 12 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 byte getNumericValue();
-#line 41 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 41 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void serialFlush();
-#line 50 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 50 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void setKlok();
-#line 75 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 75 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 byte decToBcd(byte val);
-#line 79 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 79 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 byte bcdToDec(byte val);
-#line 84 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 84 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void setDS3231time();
-#line 98 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 98 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void readDS3231time();
-#line 120 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 120 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void displayTime();
-#line 23 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+#line 23 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 void turnOnNixie(byte whichNixie, byte figure) {
   digitalWrite(A0, ((figure & 2) == 2));
   digitalWrite(A1, ((figure & 4) == 4));
@@ -168,7 +168,7 @@ void loop() {
 
 // Convert binary coded decimal to normal decimal numbers
 
-#line 1 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+#line 1 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void turnAllOff() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);

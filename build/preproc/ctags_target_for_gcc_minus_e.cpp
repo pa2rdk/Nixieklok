@@ -1,8 +1,8 @@
-# 1 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 1 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
 //By R.J. de Kok - (c) 2018
-# 3 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
-# 4 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
-# 5 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
+# 3 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
+# 4 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
+# 5 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 2
 
 
 
@@ -47,9 +47,9 @@ void turnOnNixie(byte whichNixie, byte figure) {
 }
 
 
-# 48 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 48 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
 extern "C" void __vector_7 /* Timer/Counter2 Compare Match A */ (void) __attribute__ ((signal,used, externally_visible)) ; void __vector_7 /* Timer/Counter2 Compare Match A */ (void) 
-# 48 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 48 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                       // Timer1_COMPA_vect timer compare interrupt service routine
 {
   //TCNT1 = timer1_counter;            // preload timer
@@ -91,76 +91,76 @@ void setup() {
   turnAllOff();
   Serial.begin(9600);
   Serial.println((reinterpret_cast<const __FlashStringHelper *>(
-# 88 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 88 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 88 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 88 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                 "Lets start"
-# 88 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 88 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                 ); &__c[0];}))
-# 88 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 88 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                 )));
   Wire.begin();
 
   
-# 91 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 91 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  __asm__ __volatile__ ("cli" ::: "memory")
-# 91 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 91 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                ; // disable all interrupts
   
-# 92 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 92 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB0)) 
-# 92 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 92 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         = 0;// set entire TCCR0A register to 0
   
-# 93 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 93 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB1)) 
-# 93 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 93 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         = 0;// same for TCCR0B
   
-# 94 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 94 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB2)) 
-# 94 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 94 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         = 0;//initialize counter value to 0
   // set compare match register for 2khz increments
   
-# 96 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 96 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB3)) 
-# 96 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 96 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
        = 250;// = (16*10^6) / (500*256) - 1 (must be <256)
   // turn on CTC mode
   
-# 98 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 98 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB0)) 
-# 98 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 98 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         |= (1 << 
-# 98 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 98 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                  1
-# 98 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 98 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                       );
   // Set CS22 for 256 prescaler
   
-# 100 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 100 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0xB1)) 
-# 100 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 100 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         |= (1 << 
-# 100 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 100 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                  2
-# 100 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 100 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                      ); //| (1 << CS00);
   // enable timer compare interrupt
   
-# 102 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 102 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  (*(volatile uint8_t *)(0x70)) 
-# 102 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 102 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
         |= (1 << 
-# 102 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 102 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                  1
-# 102 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 102 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                        );
   
-# 103 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 103 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
  __asm__ __volatile__ ("sei" ::: "memory")
-# 103 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 103 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
              ; // enable all interrupts
   for (int i = 0; i < 10; i++) {
     digit1 = i;
@@ -171,24 +171,24 @@ void setup() {
   }
 
   Serial.println((reinterpret_cast<const __FlashStringHelper *>(
-# 112 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 112 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                 (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 112 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 112 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                 "Type GS to enter setup:"
-# 112 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 112 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                 ); &__c[0];}))
-# 112 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 112 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                 )));
   delay(5000);
   if (Serial.available()) {
     Serial.println((reinterpret_cast<const __FlashStringHelper *>(
-# 115 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 115 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                   (__extension__({static const char __c[] __attribute__((__progmem__)) = (
-# 115 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 115 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                   "Check for setup"
-# 115 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
+# 115 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino" 3
                   ); &__c[0];}))
-# 115 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
+# 115 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Nixieklok.ino"
                   )));
     if (Serial.find(chkGS)) {
       setKlok();
@@ -218,7 +218,7 @@ void loop() {
 }
 
 // Convert binary coded decimal to normal decimal numbers
-# 1 "/home/robert/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
+# 1 "/Users/robertdekok/Dropbox/Arduino-workspace/Nixieklok/Helpers.ino"
 void turnAllOff() {
   digitalWrite(2, 0x0);
   digitalWrite(3, 0x0);

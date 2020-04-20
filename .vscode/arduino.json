@@ -1,8 +1,8 @@
 {
     "board": "arduino:avr:nano",
     "configuration": "cpu=atmega328",
-    "port": "/dev/ttyUSB1",
+    "port": "/dev/cu.wchusbserial14510",
     "output": "build",
     "sketch": "Nixieklok.ino",
-    "programmer": "AVR ISP"
+    "programmer": "AVRISP mkII"
 }
